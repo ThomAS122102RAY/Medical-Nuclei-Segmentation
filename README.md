@@ -156,17 +156,10 @@ ON_EXIST=retrain SEG_BSZ=8 SEG_WORKERS=8 python main_pipeline.py
 
 ---
 
-## 🖼️ Results & Demo
+## 🖼️ Demo
 
 **Inference build:** [Download here](https://drive.google.com/file/d/1d-w3jOuPZsPWLxZBIMaNjzvJdb8G2lT_/view?usp=sharing)
 
-**Metrics snapshot (train/test):**
-
-![Train/Test Metrics](docs/media/metrics.png)
-
-**Segmentation overlay example:**
-
-![Segmentation Overlay](docs/media/seg_overlay.png)
 
 ---
 
