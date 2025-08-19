@@ -140,11 +140,11 @@ ON_EXIST=retrain SEG_BSZ=8 SEG_WORKERS=8 python main_pipeline.py
 
 ### Training & Testing Metrics
 
-![Training & Testing Metrics](螢幕擷取畫面%202025-08-19%20212352.png)
+![Train/Test Metrics](docs/media/metrics.png)
 
 ### Segmentation Overlay Example
 
-![Segmentation Overlay](000279_seg_overlay.png)
+![Segmentation Overlay](docs/media/seg_overlay.png)
 
 ### Key Scores
 | Split | Dice  | IoU   | Organ Top-1 |
