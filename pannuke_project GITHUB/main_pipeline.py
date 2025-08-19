@@ -23,7 +23,7 @@ def should_retrain_if_model_exists(final_ckpt: Path) -> bool:
     if mode == 'predict':
         return False
     try:
-        ans = input(f"{final_ckpt}\n [r] to retrain / [p] to predict trained model: ").strip().lower()
+        ans = input(f"{final_ckpt}\n [r] to retrain / [p] to predict with trained model: ").strip().lower()
     except Exception:
         ans = 'p'
     return ans.startswith('r') or ans == 'r'
