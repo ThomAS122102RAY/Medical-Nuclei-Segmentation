@@ -14,7 +14,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
-NOTICE:PUT　THE FOLDER ON DESKTOP!
+NOTICE: PUT THE FOLDER IN DESKTOP FOLDER!
 
 Tested with Python 3.10+ and PyTorch 2.1+. For CUDA, install the matching `torch` build from the official instructions.
 
