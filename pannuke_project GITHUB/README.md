@@ -156,27 +156,14 @@ python evaluate/evaluate.py   --pred_dir predictions/single_masks   --gt_dir   d
 
 > Adjust `--num_classes` depending on your labels (e.g., 2 for binary SEG, 6 for TYPE).
 
-## 6) Data‑Leak Check (optional)
 
-A quick checker is provided to detect simple split leakage (same stems or duplicate file content). Place it in project root and run:
-
-```bash
-python leak_check.py
-```
-
-Output includes:
-
-* `overlapping_stems` (train vs test)
-* quick duplicate hashes
-* shapes of `train/test/images.npy` if present
-
-## 7) Common Issues
+## 6) Common Issues
 
 * **Hard‑coded paths**: Ensure `TEST_ROOT = PANNUKE_ROOT / 'test'`.
 * **Missing masks**: If SEG metrics warn about missing masks, verify `data/test/masks/*.npy` exists and matches `images` stems.
 * **Mixed shapes/logits**: Some `.npy` predictions store logits. The evaluation scripts handle common shapes via `argmax`; confirm your model’s output format if results look off.
 * **CUDA errors**: Set `CUDA_VISIBLE_DEVICES=` to force CPU, or install a CUDA‑enabled PyTorch build.
 
-## 8) License & Dataset
+## 7) License & Dataset
 
 This project trains on the PanNuke dataset. Please follow the dataset’s original license and citation requirements.
