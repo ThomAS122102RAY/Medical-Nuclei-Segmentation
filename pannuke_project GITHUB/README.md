@@ -68,8 +68,8 @@ pannuke_project/
 Place your PanNuke bundles under `data/`:
 
 * `data/images/*_images.npy`
-* `data/masks/*_masks.npy` (optional but required for SEG evaluation)
-* `data/types/*_types.npy` (optional but required for TYPE evaluation)
+* `data/masks/*_masks.npy`
+* `data/types/*_types.npy` 
 
 ### Split options
 
