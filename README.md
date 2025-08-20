@@ -10,7 +10,7 @@ download the data:https://www.kaggle.com/datasets/theredlad/pannuke-dataset-expe
 - 🔄 **Automated Data Split** (train/test)
 - 🧩 **Multi-task Learning**: Segmentation + Type prediction
 - ⚡ **GPU-accelerated training** (PyTorch)
-- 📊 **Comprehensive Evaluation** (Dice, IoU, F1, Accuracy)
+- 📊 **Comprehensive Evaluation** (Dice, IoU, Accuracy)
 - 💾 **Checkpointing**: Avoid redundant retraining
 - 🔍 **Leakage Detection** between train/test sets
 
