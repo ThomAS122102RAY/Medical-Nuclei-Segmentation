@@ -3,6 +3,7 @@
 An **end-to-end deep learning pipeline** for nuclei segmentation and type prediction on the **PanNuke dataset**.  
 This project integrates data preprocessing, training with **TransUNet** and evaluation, and prediction.
 
+download the data:https://www.kaggle.com/datasets/theredlad/pannuke-dataset-experimental-data?resource=download
 ---
 
 ## 🚀 Features
